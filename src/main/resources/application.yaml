@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: springSecurity
+  datasource:
+    url: jdbc:mysql://172.18.0.2:3306/security
+    username: root
+    password: YUSAKI-399kim
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8081
+
